@@ -1,0 +1,526 @@
+@import url('http://fonts.cdnfonts.com/css/sofia-pro');
+@import url('http://fonts.cdnfonts.com/css/la-belle-aurore');
+
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url("picture.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: 'Sofia Pro', sans-serif;
+    overflow-x: hidden;
+
+}
+
+.navigation{
+    width:100vw;
+    height: 6vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    font-family: 'Sofia Pro', sans-serif;
+    
+
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 26vw;
+    gap:35px;
+    list-style:none;
+    margin-right: 0.1vw;
+    margin-top: 5vh;
+    
+}
+
+.navbar a{
+    text-decoration:none;
+} 
+
+.menuButton{
+    display: none;
+}
+
+
+.home{
+    color:rgb(210, 118, 113);
+}
+
+.explore{
+    color:rgb(0, 0, 0);
+}
+
+.login{
+    color:rgb(0, 0, 0);
+}
+
+.logo{
+    align-items: center;
+    height: 37px;
+    width: auto;
+    margin-left:7vw;
+    margin-top: 2vh;
+    fill: black;
+}
+
+.about{
+    color:rgb(0, 0, 0);
+}
+
+
+.navbar a{
+    text-decoration:none;
+}
+
+.about:hover{
+    color:rgb(210, 118, 113);
+    cursor:pointer;
+}
+
+.explore:hover{
+    color:rgb(210, 118, 113);
+    cursor:pointer;
+}
+
+.login:hover{
+    color:rgb(210, 118, 113);
+    cursor:pointer;
+}
+
+.rightnav{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content:flex-end;
+    width: 60vw;
+    margin-right: 7vw;
+    height: 6vh;
+}
+
+.homesection{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height:94vh;
+    width:100vw;
+}
+
+.leftcontainer{
+    display:flex;
+    flex-direction: column;
+    width:100vw;
+    justify-content:flex-start;
+    align-items:flex-start;
+    font-family: 'Sofia Pro', sans-serif;
+    margin-left: 0vw;
+    margin-bottom: 46vh;
+}
+
+.button{
+    height: 35px;
+    width: 165px;
+    background-color:rgb(210, 118, 113);
+    color:rgb(46, 46, 46);
+    border-radius:22px;
+    border: 0;
+    font-size: 15px;
+    font-family: 'Sofia Pro', sans-serif;
+    font-weight:400;
+    margin-left: 7vw;
+
+}
+
+.title{
+    color:rgb(74, 74, 74);
+    font-size:40px;
+    font-weight:260;
+    font-family: 'Sofia Pro', sans-serif;
+    margin-left: 7vw;
+    margin-bottom: 0px;
+}
+
+.colored{
+    color: rgb(210, 118, 113);
+    font-family: 'La Belle Aurore', sans-serif;
+    font-size:43px;                                        
+}
+.description{
+    color:rgb(74, 74, 74);
+    font-size:23px;
+    font-family: 'Sofia Pro', sans-serif;
+    font-weight:296;
+    margin-left: 7vw;
+}
+.button:hover{
+    cursor:pointer;
+}
+
+.line{
+    display: flex;
+    width: auto;
+    height: 1.5px;
+    margin-top: -0.6vh;
+}
+
+.linedark{
+    display: none;
+    width: auto;
+    height: 1.5px;
+    margin-top: -0.6vh;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    width: 100vw;
+}
+
+.upperfooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 20vh;
+    width: 100vw;
+    background-color: rgb(210, 118, 113);
+}
+
+.leftfooter{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items:flex-start;
+    height: 15vh;
+    margin-left:7vw;
+
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    width:9.5vw;
+    height:6vh;
+}
+
+.logo1{
+    height: 37px;
+    width: auto;
+    margin-top: 2vh;
+}
+
+.facebook{
+    height: 25px;
+    width: auto;
+    color: rgb(0, 0, 0);
+}
+
+.instagram{
+    height: 25px;
+    width: auto;
+    color: rgb(0, 0, 0);
+}
+
+.twitter{
+    height: 25px;
+    width: auto;
+    color: rgb(0, 0, 0);
+}
+
+.youtube{
+    height: 25px;
+    width: auto;
+    color: rgb(0, 0, 0);
+}
+
+.facebook:hover{
+    cursor:pointer;
+}
+
+.instagram:hover{
+    cursor:pointer;
+}
+
+.twitter:hover{
+    cursor:pointer;
+}
+.youtube:hover{
+    cursor:pointer;
+}
+
+.navbarfooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style:none;
+    width: 32.5vw;
+    gap: 35px;
+    margin-left: 28vw;
+}
+
+.navbarfooter a{
+    text-decoration: none;
+}
+
+.badges{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-evenly;
+    margin-left: 6vw;
+    height: 8vw;
+}
+
+
+.bottomfooter{
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    width: 100vw;
+    background-color: rgb(210, 118, 113);
+}
+
+.contact:hover{
+    cursor:pointer;
+}
+
+.faq:hover{
+    cursor:pointer;
+}
+
+.newsletter:hover{
+    cursor:pointer;
+}
+
+.terms:hover{
+    cursor:pointer;
+}
+
+.privacy:hover{
+    cursor:pointer;
+}
+
+.apple:hover{
+    cursor:pointer;
+}
+
+.google:hover{
+    cursor:pointer;
+}
+
+.contact{
+    color: black;
+}
+.faq{
+    color: black;
+}
+.newsletter{
+    color: black;
+}
+
+.terms{
+    color: black;
+}
+.privacy{
+    color: black;
+}
+
+.copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:flex-end;
+    font-family: 'Sofia Pro', sans-serif;
+    color: rgb(141, 76, 73);
+    font-size: 12px;
+    margin-left:7vw;
+}
+
+.buttonup{
+    position:fixed;
+    top:90%;
+    right:5.5%;
+    height:30px;
+    width:30px;
+    border:none;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+@media only screen and (max-width: 600px){
+    html, body{
+        overflow-x: hidden;
+    }
+    body{
+        position: relative;
+        background-image: none;
+        background-color: bisque;
+    }
+
+    .homesection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .leftcontainer{
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        align-items: flex-start;
+        margin-left: 0vw;
+        margin-bottom: 14vh;
+    }
+
+    .description{
+        margin-left: 7vw;
+        margin-right: 11vw;
+    }
+
+    .button{
+        margin-left: 7vw;
+    }
+
+    .navbarfooter{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin-left: 35px;
+    }
+    .icons{
+        gap: 10px;
+    }
+
+    .upperfooter{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .badges{
+        display: none;
+    }
+
+
+    .navigation{
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        align-items:flex-start;
+        gap: 18px;
+    }
+
+    .line{
+        display: none;
+    }
+
+
+    .navbar{
+        display: none;
+        flex-direction: row;
+        justify-content: center;
+        margin-right:-10px;
+        padding:0;
+        transition: 1s ease;
+        gap: 20px;
+
+    }
+
+    .navbar li{
+        font-size: 20px;
+        margin: 0;
+
+    }
+
+    .visibility .navbar{
+        display: flex;
+
+    }
+
+    .logoandmenu{
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 7px;
+    }
+
+    .menuButton{
+        display: flex;
+        text-decoration: none;
+        font-size: 28px;
+        margin-right: 26px;
+        color: black;
+        margin-top: 15px;
+    }
+    
+
+
+}
+
+
+.dark-mode{
+    background-image: url("pictureDark2.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.dark-mode li{
+    color:white;
+}
+.moonbutton{
+    color: rgb(0, 0, 0);
+}
+
+.dark-mode h1{
+    color:white;
+}
+
+.dark-mode p{
+    color:white;
+}
+
+.dark-mode button{
+    color:white;
+}
+.dark-mode i{
+    color:white;
+}
+
+.dark-mode path{
+    fill:white;
+    
+}
+.dark-mode .home{
+    color:#d27671;
+}
+
+.dark-mode .upperfooter{
+    background-color:rgb(0, 0, 0);
+}
+.dark-mode .bottomfooter{
+    background-color:rgb(0, 0, 0);
+}
+
+.dark-mode .line{
+    display: none;
+}
+
+.dark-mode .linedark{
+    display: flex;
+}
+
+.dark-mode .copyright{
+    color: rgb(141, 76, 73);
+}
